@@ -1,0 +1,104 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    padding-bottom: 40px;
+    font-size: xxx-large;
+    font-weight: 900;
+    font-family: fantasy;
+    color: #e34346
+}
+
+#group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    width: 640px;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 600;
+    color: dimgrey;
+}
+
+#days {
+    background: cadetblue;
+    display: flex;
+    width: 20vh;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#hours {
+    background: cadetblue;
+    display: flex;
+    width: 20vh;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#min {
+    background: cadetblue;
+    display: flex;
+    width: 20vh;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#sec {
+    background: cadetblue;
+    display: flex;
+    width: 20vh;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#d {
+    font-weight: 700;
+    font-size: x-large;
+    color: ghostwhite;
+}
+
+#h {
+    font-weight: 700;
+    font-size: x-large;
+    color: ghostwhite;
+}
+
+#m {
+    font-weight: 700;
+    font-size: x-large;
+    color: ghostwhite;
+}
+
+#s {
+    font-weight: 700;
+    font-size: x-large;
+    color: ghostwhite;
+}
